@@ -82,4 +82,3 @@ jobs:
           webhook_url: "https://prime-x.g.kuroco.app/direct/menu/github/"
           webhook_secret: "f46906fa0e4f7895536f7c2623bddf2f"
           data: '{"single_zip":"0","domain":"prime-x.g.kuroco-front.app", "repository":"${{ github.repository }}", "run_id":"${{ github.run_id }}", "hash":"${{ github.sha }}"}'
-
